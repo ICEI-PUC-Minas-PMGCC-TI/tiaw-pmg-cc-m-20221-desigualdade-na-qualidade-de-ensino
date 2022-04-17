@@ -1,22 +1,20 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Desigualdade na Qualiadade de Ensino
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciências da Computação
 
 ## Participantes
+Os membros do grupo são:
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
-
+- André Mendes Rodrigues
+- Lucas de Oliveira Lopes
+- Nilson Deon Cordeiro Filho
+- Theo Alvarenga Torres Dias
+- 
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
