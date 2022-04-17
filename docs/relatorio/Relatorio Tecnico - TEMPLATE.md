@@ -57,13 +57,11 @@ Uma das características que mais chamam a atenção nas universidades brasileir
 
 ## Objetivos
 
-"NOME” tem o intuito de ajudar os vestibulandos a se prepararem melhor para o seu exame. Os instruindo sobre como organizar os estudos e o que estudar. 
+O site (nome ainda não decidido) tem o intuito de ajudar os vestibulandos a se prepararem melhor para o seu exame. Os instruindo sobre como organizar os estudos e o que estudar. 
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-A motivação vem do fato de que a maioria dos vestibulandos não receberam um ensino de qualidade e não podem arcar com um curso preparatório. O que os fazem estudar por conta própria, mesmo sem saber o que estudar ou como organizar os estudos.  E aí o “NOME” entra em ação. 
+A motivação vem do fato de que a maioria dos vestibulandos não receberam um ensino de qualidade e não podem arcar com um curso preparatório. O que os fazem estudar por conta própria, mesmo sem saber o que estudar ou como organizar os estudos.  E aí o site (nome ainda não decidido) entra em ação.  
 
 ## Público-Alvo
 
@@ -250,7 +248,7 @@ O método "Design Thinking" foi utilizado na fase de concepção do projeto. Já
 > - PowerPoint
 > - Miro
 > 
-> O Discord e WhatsApp foram utilizados devido a facilidade de acesso e essas ferramentas já eram utilizadas pelos integrantes do grupo, elas foram usadas para que os integrantes mativessem contato e para o monitoramento do trabalho atribuido a cada um. O Figma também foi escolhido devido a familiaridade de um integrante do grupo, ele foi utilizado para a produção do wireframe, userflow e do protótipo interativo.
+> O Discord e WhatsApp foram utilizados devido a facilidade de acesso e essas ferramentas já eram utilizadas pelos integrantes do grupo, elas foram usadas para que os integrantes mantivessem contato e para o monitoramento do trabalho atribuído a cada um. O Figma também foi escolhido devido a familiaridade de um integrante do grupo, ele foi utilizado para a produção do wireframe, userflow e do protótipo interativo.
 
 ## Controle de Versão
 >A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado para hospedagem do repositório `upstream`.
