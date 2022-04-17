@@ -239,50 +239,37 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+O principal ponto da interface é ser de simples utilização e ser responsivo, para que possar ser usado tanto em celulares quanto computadores.
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
 
 ## User Flow
-
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
+![Userflow](https://user-images.githubusercontent.com/81258205/163721031-f6c6be59-3db7-4717-95b0-9fc2faf5657f.png)
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+## Home
+![Home](https://user-images.githubusercontent.com/81258205/163720898-c1eade93-8b63-418a-b2f9-aa3e14ff7264.png)
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+## Login
+![login](https://user-images.githubusercontent.com/81258205/163720911-eb3c5388-0d7e-44f3-81ec-d889b94ea18f.png)
+
+## Registro
+![Registro](https://user-images.githubusercontent.com/81258205/163721082-de438109-784d-4606-88ba-143c7a66c7d5.png)
+
+## Dashboard
+![Dashboard](https://user-images.githubusercontent.com/81258205/163720939-7e697ee2-f44f-4440-a812-9274feab5a73.png)
+
+## Matérias
+![Materias](https://user-images.githubusercontent.com/81258205/163720959-7a7a5566-64f9-4df4-b596-2a147942c309.png)
+
+## Conteúdos
+![Conteudos](https://user-images.githubusercontent.com/81258205/163720970-64e8082d-9073-446b-8fde-9c805e34b517.png)
+
+## Dicas
+![Dicas](https://user-images.githubusercontent.com/81258205/163720979-693fd9fc-1944-4d72-b201-108c21374a9c.png)
+
+## Dica
+![Dica](https://user-images.githubusercontent.com/81258205/163720990-6eadf56d-aff0-4469-9daf-b8a2df3d9df4.png)
 
 
 # Metodologia
