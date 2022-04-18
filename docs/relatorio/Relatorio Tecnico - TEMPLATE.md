@@ -69,12 +69,6 @@ O público-alvo é composto em sua maioria por mulheres (~ 55%), ensino médio c
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
 ## Personas e Mapas de Empatia
 
 Carolina: Tem 21 anos, é desempregada. Sua família a possibilitou estudar em temo integral, mas não possuem dinheiro o suficiente para pagar por um curso preparatório. Gostaria de ter acesso mais fácil a técnicas de estudo. Além disso, gostaria de saber quais matérias devo estudar. 
