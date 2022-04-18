@@ -94,8 +94,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Carolina           | Acesso a técnicas de estudo        | Melhorar os estudos                    |
 | Carolina           | Saber em que matérias focar        | Não estudar o que não precisa/ não perder tempo |
 | Túlio              | Acesso a técnicas de estudo        | Melhorar fixação das matérias          |
+| Túlio              | Organizador de estudos             | Organização                            |
 | Jéssica            | Saber em que matérias focar        | Não perder tempo                       |
-| Jéssica            | Organizador de estudos             | Organização                       |
 
 ## Requisitos
 
