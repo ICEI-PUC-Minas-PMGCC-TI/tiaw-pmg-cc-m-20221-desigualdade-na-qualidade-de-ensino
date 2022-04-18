@@ -71,15 +71,13 @@ O público-alvo é composto em sua maioria por mulheres (~ 55%), ensino médio c
 
 ## Personas e Mapas de Empatia
 
-Carolina: Tem 21 anos, é desempregada. Sua família a possibilitou estudar em temo integral, mas não possuem dinheiro o suficiente para pagar por um curso preparatório. Gostaria de ter acesso mais fácil a técnicas de estudo. Além disso, gostaria de saber quais matérias devo estudar. 
-
+Carolina: Tem 20 anos, é desempregada. Sua família a possibilitou estudar em tempo integral, mas não possuem dinheiro o suficiente para pagar por um curso preparatório. Deseja fazer direito e gostaria de ter acesso facilitado a novas técnicas de estudo. Além disso, gostaria de ter um direcionamento maior sobre quais são as principais matérias que deve estudar.
  
 
-Túlio: Tem 17 anos e é estudante do 3º ano do ensino médio. Está preocupado com a alta competitividade do processo seletivo da faculdade que deseja e quer otimizar os seus estudos. As vezes acaba precisando estudar as matérias mais de uma vez já que não consegue fixar o conteúdo. 
-
+Túlio: Tem 17 anos e é estudante do 3º ano do ensino médio. Está preocupado com a alta competitividade do processo seletivo da faculdade que deseja e quer otimizar os seus estudos. Gosta de praticar atividades físicas e deseja ser fisioterapeuta. As vezes acaba precisando estudar as matérias mais de uma vez já que não consegue fixar o conteúdo. Também deseja encontrar uma maneira de orgazinar sua rotina estudantil.
  
 
-Jéssica: Tem 30 anos, é cozinheira. Largou os estudos devido a gravidez precoce, mas agora deseja retomar. Ela precisa dividir seu tempo com o trabalho e seu filho, por isso, não sobra muito tempo para estudar. Deseja saber em quais conteúdos mais aparecem em sua prova, para que não perca tempo. Também gostaria de um local para manter organizado o que falta ser estudado e já foi. 
+Jéssica: Tem 30 anos, é cozinheira. Largou os estudos devido a gravidez precoce, mas agora deseja retomar. Ela precisa dividir seu tempo com o trabalho e seu filho, por isso, não sobra muito tempo para estudar. Deseja saber em quais conteúdos mais aparecem em sua prova, para que não perca tempo. Também gostaria de um ensino efetivo e de fácil acessibilidade.
 
 ![mapa1](https://user-images.githubusercontent.com/81258205/163737998-8462e07f-db10-4479-9905-3dfa40b36f98.png)
 
