@@ -1,0 +1,51 @@
+:root{
+    --cor0:#f72585;
+    --cor1:#7209b7;
+    --cor2:#3a0ca3;
+    --cor3:#4361ee;
+    --cor4:#4cc9f0;
+    --cor5: white;
+
+    /* Não gostei dever mudar */
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: var(--cor1);
+}
+
+.header{
+    background-color: var(--cor0);
+    display: flex;
+    
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
