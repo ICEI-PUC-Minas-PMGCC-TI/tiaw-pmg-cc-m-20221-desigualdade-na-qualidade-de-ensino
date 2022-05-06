@@ -164,4 +164,7 @@ li::before {
     box-shadow: 0px 0px;
 }
 
+#formulario2{
+    display: none;
+}
 /* ----- REGISTRO FIM ----- */
