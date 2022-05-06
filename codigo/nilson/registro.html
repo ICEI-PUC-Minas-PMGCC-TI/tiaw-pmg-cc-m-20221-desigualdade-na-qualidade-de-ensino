@@ -12,28 +12,51 @@
 
 <body>
     <main>
-        <div class="wrapper-registro" >
-            
-        <div>
-            <ol>
-                <li>Básico</li>
-                <li>Adicional</li>
-            </ol>
-        </div>
+        <div class="wrapper-registro">
 
-        <div id="formulario1">
+            <div class="passos">
+                <ol>
+                    <li>Básico</li>
+                    <li>Adicional</li>
+                </ol>
+            </div>
 
-            <input type="text" class="nome" placeholder="Nome Completo">
-            <input type="text" class="email" placeholder="E-mail">
-            <input type="password" class="senha" placeholder="Senha">
-            <input type="password" class="repeteSenha" placeholder="Confirme a sua senha">
+            <div id="formulario1">
 
-            <button onclick="ocultar(), exibir()">Continuar</button>
-        </div>
+                <input type="text" class="nome" placeholder="Nome Completo">
+                <input type="email" class="email" placeholder="E-mail">
+                <input type="password" class="senha" placeholder="Senha">
+                <input type="password" class="repeteSenha" placeholder="Confirme a sua senha">
 
-        <div id="formulario2">
-            <input type="text" placeholder="">
-        </div>
+                <button onclick="ocultar(), exibir()">Continuar</button>
+            </div>
+
+            <div id="formulario2">
+
+                <label> idade: </label> <!-- teste -->
+                <input type="text" placeholder="Idade">
+                <br>
+
+                <input type="text" placeholder="Renda familiar">
+                <br>
+
+                <label for="">Sexo:</label>
+                <span><input type="checkbox"> Feminino</span>
+                <span><input type="checkbox"> Masculino</span>
+                <span><input type="checkbox"> Outro</span>
+                <br>
+
+                <label for="">Já é formado: </label>
+                <span><input type="checkbox"> Sim</span>
+                <span><input type="checkbox"> Não</span>
+                <br>
+
+                <input type="text" placeholder="Qual o curso você deseja ingressar?">
+                <br>
+
+                <button onclick="">Registrar</button>
+
+            </div>
 
         </div>
 

@@ -87,21 +87,24 @@ main {
     text-align: center;
 }
 
-ol {
+.passos{
+    width: 500px;
+}
+
+.passos ol {
     counter-reset: item;
     list-style-type: none;
     padding-left: 20px;
     margin-left: 20px;
     border-style: solid;
     border-color: var(--cor4);
-    border-width: 0 0 0 1px;
-    
     display: inline-block;
     border-width: 1px 0 0 0;
     padding: 15px 0 0;
       
   }
-li {
+
+.passos li {
     position: relative;
     line-height: 30px;
     margin-bottom: 30px;
@@ -109,7 +112,7 @@ li {
     margin: 0 15px;
   }
   
-li::before {
+.passos li::before {
     counter-increment: item;
     content: counter(item);
     position: absolute;
@@ -167,4 +170,9 @@ li::before {
 #formulario2{
     display: none;
 }
+
+#formulario2, input{
+    margin-top: 15px;
+}
+
 /* ----- REGISTRO FIM ----- */
