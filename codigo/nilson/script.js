@@ -1,6 +1,10 @@
 
 /* REGISTRO INICIO */
 
+/* function verificacao1(){
+
+} */
+
 function exibir(){
     document.getElementById("formulario2").style.display = "block";
 }

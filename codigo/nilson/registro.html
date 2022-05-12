@@ -25,39 +25,44 @@
 
                 <input type="text" class="nome" placeholder="Nome Completo">
                 <input type="email" class="email" placeholder="E-mail">
-                <input type="password" class="senha" placeholder="Senha">
-                <input type="password" class="repeteSenha" placeholder="Confirme a sua senha">
-
-                <button onclick="ocultar(), exibir()">Continuar</button>
+                <div class=" div-senhas">
+                    <input type="password" class="senha" placeholder="Senha">
+                    <input type="password" class="repeteSenha" placeholder="Confirme a sua senha">
+                </div>
+                <div class="div-btn">
+                    <button onclick=" ocultar(), exibir()">Continuar</button>
+                </div>
             </div>
 
             <div id="formulario2">
 
-                <label> idade: </label> <!-- teste -->
-                <input type="text" placeholder="Idade">
+                <label> Data de nascimento:</label> <!-- teste -->
+                <select id="dia"></select>
+                <select id="mes"></select>
+                <select id="ano"></select>
                 <br>
 
-                <input type="text" placeholder="Renda familiar">
-                <br>
+                <label> Renda Familiar:</label>
+                <input type="number">
+                <br><br>
 
                 <label for="">Sexo:</label>
-                <span><input type="checkbox"> Feminino</span>
-                <span><input type="checkbox"> Masculino</span>
-                <span><input type="checkbox"> Outro</span>
+                <select id="sexo"></select>
+                <br><br>
+
+                <label for="">Escolaridade:</label>
+                <select id="escolaridade"></select>
                 <br>
 
-                <label for="">Já é formado: </label>
-                <span><input type="checkbox"> Sim</span>
-                <span><input type="checkbox"> Não</span>
-                <br>
+                <label>Qual o curso que você deseja?</label>
+                <input type="text">
+                <br><br>
 
-                <input type="text" placeholder="Qual o curso você deseja ingressar?">
-                <br>
-
-                <button onclick="">Registrar</button>
-
+                <div class="div-btn" >
+                    <button onclick="">Registrar</button>
+                </div>
             </div>
-
+            
         </div>
 
     </main>

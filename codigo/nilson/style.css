@@ -88,7 +88,7 @@ main {
 }
 
 .passos{
-    width: 500px;
+    width: 100%;
 }
 
 .passos ol {
@@ -130,6 +130,7 @@ main {
 
 .wrapper-registro input {
     padding: 3px;
+    height: 25px;
     outline: none;
 }
 
@@ -138,13 +139,22 @@ main {
     margin-bottom: 10px;
 }
 
-.senha, .repeteSenha{
-    width: 46%;
+.div-senhas{
+    width: 100%;
     margin-bottom: 10px;
 }
 
+.senha{
+    width: 46%;
+}   
+
 .repeteSenha{
-    margin-left: 4px;
+    width: 46%;
+}
+
+.div-btn{
+    margin-top: 10px;
+    text-align: center;
 }
 
 .wrapper-registro button {
@@ -167,7 +177,16 @@ main {
     box-shadow: 0px 0px;
 }
 
+.wrapper-registro span{
+    text-align: center;
+}
+
+#formulario1{
+    text-align: left;
+}
+
 #formulario2{
+    text-align: left;
     display: none;
 }
 
