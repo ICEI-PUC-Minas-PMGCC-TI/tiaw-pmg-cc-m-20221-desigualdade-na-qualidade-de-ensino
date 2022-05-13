@@ -6,29 +6,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-
-
     <title>Login - NOME</title>
+
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <main>
         <div class="wrapper-login">
             <h1>Login</h1>
+            <br>
+            <input type="text" id="login-email" placeholder="E-mail">
+            <br>
+            <input type="password" id="login-senha" placeholder="Senha">
             <br><br>
-            <input type="text" placeholder="Usuário">
-            <br><br>
-            <input type="password" placeholder="Senha">
-            <br><br>
-            <button><strong>Entrar</strong></button>
+            <button onclick="verificaLogin()"><strong>Entrar</strong></button>
             <br><br>
             <a href="#">Esqueceu sua senha?</a>
             <br><br>
-            <p>Não tem uma conta? <a href="#">Crie uma agora</a>.</p>
+            <p>Não tem uma conta? <a href="registro.html">Crie uma agora</a>.</p>
         </div>
 
     </main>
-    <script src="script.js"></script>
+    
 </body>
 
 </html>

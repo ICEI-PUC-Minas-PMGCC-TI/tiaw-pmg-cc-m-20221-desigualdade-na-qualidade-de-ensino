@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+
     <title>Registrar - NOME</title>
 </head>
 
-<body>
+<body onload="options()">
     <main>
         <div class="wrapper-registro">
 
@@ -23,11 +25,11 @@
 
             <div id="formulario1">
 
-                <input type="text" class="nome" placeholder="Nome Completo">
-                <input type="email" class="email" placeholder="E-mail">
+                <input type="text" class="nome-registro" placeholder="Nome Completo" required>
+                <input type="email" class="email-registro" placeholder="E-mail" required>
                 <div class=" div-senhas">
-                    <input type="password" class="senha" placeholder="Senha">
-                    <input type="password" class="repeteSenha" placeholder="Confirme a sua senha">
+                    <input type="password" class="senha-registro" placeholder="Senha" required>
+                    <input type="password" class="repeteSenha-registro" placeholder="Confirme a sua senha" required>
                 </div>
                 <div class="div-btn">
                     <button onclick=" ocultar(), exibir()">Continuar</button>
@@ -37,29 +39,28 @@
             <div id="formulario2">
 
                 <label> Data de nascimento:</label> <!-- teste -->
-                <select id="dia"></select>
-                <select id="mes"></select>
-                <select id="ano"></select>
+                <input type="date" id="data">
                 <br>
 
                 <label> Renda Familiar:</label>
-                <input type="number">
+                <input type="number" id="renda">
                 <br><br>
 
                 <label for="">Sexo:</label>
-                <select id="sexo"></select>
-                <br><br>
-
-                <label for="">Escolaridade:</label>
-                <select id="escolaridade"></select>
+                <select id="sexo">
+                    <option> --- </option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
                 <br>
 
                 <label>Qual o curso que você deseja?</label>
-                <input type="text">
+                <input type="text" class="curso">
                 <br><br>
 
                 <div class="div-btn" >
-                    <button onclick="">Registrar</button>
+                    <button onclick="incluirContato()">Registrar</button>
                 </div>
             </div>
             
