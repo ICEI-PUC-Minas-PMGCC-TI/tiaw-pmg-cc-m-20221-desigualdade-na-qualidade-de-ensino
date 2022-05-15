@@ -1,72 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Registrar - NOME</title>
+    <title>Registro - NOME</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="registro.js"></script>
+
 </head>
 
-<body onload="options()">
+<body>
+    <!-- Início do formulário -->
     <main>
-        <div class="wrapper-registro">
 
-            <div class="passos">
-                <ol>
-                    <li>Básico</li>
-                    <li>Adicional</li>
-                </ol>
+        <div class="wrapperRegistro">
+
+            <div class="divTitulo">
+                <h1>Registro</h1>
             </div>
 
-            <div id="formulario1">
+            <div class="wrapperForm1">
 
-                <input type="text" class="nome-registro" placeholder="Nome Completo" required>
-                <input type="email" class="email-registro" placeholder="E-mail" required>
-                <div class=" div-senhas">
-                    <input type="password" class="senha-registro" placeholder="Senha" required>
-                    <input type="password" class="repeteSenha-registro" placeholder="Confirme a sua senha" required>
+                <div class="campo">
+                    <label for="nome" id="lbNome"><strong>Nome Completo</strong></label>
+                    <input type="text" name="nome" id="nome">
                 </div>
-                <div class="div-btn">
-                    <button onclick=" ocultar(), exibir()">Continuar</button>
+
+                <div class="campo">
+                    <label for="email" id="lbEmail"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email">
                 </div>
+                <div class="campo">
+                    <label for="password" id="lbSenha"><strong>Senha</strong></label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Sexo</strong></label>
+                    <label>
+                        <input type="radio" name="sexo" value="masculino" id="m"checked>Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo" value="feminino" id="f">Feminino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo" value="outro" id="o">Outro
+                    </label>
+                </div>
+
             </div>
 
-            <div id="formulario2">
+            <div class="wrapperForm2">
 
-                <label> Data de nascimento:</label> <!-- teste -->
-                <input type="date" id="data">
-                <br>
-
-                <label> Renda Familiar:</label>
-                <input type="number" id="renda">
-                <br><br>
-
-                <label for="">Sexo:</label>
-                <select id="sexo">
-                    <option> --- </option>
-                    <option value="masculino">Masculino</option>
-                    <option value="feminino">Feminino</option>
-                    <option value="outro">Outro</option>
-                </select>
-                <br>
-
-                <label>Qual o curso que você deseja?</label>
-                <input type="text" class="curso">
-                <br><br>
-
-                <div class="div-btn" >
-                    <button onclick="incluirContato()">Registrar</button>
+                <div class="campo">
+                    <label>
+                        <label for="nascimento"><strong>Data de Nascimento</strong></label>
+                        <input type="date" name="nascimento" id="data">
+                    </label>
                 </div>
+
+
+                <div class="campo">
+                    <label>
+                        <label for="renda"><strong>Renda Familiar</strong></label>
+                        <input type="text" name="renda" id="renda" >
+                    </label>
+                </div>
+
+                <div class="campo">
+                    <label for="password" id="lbRepeteSenha"><strong>Repita a senha</strong></label>
+                    <input type="password" name="senha" id="repeteSenha" re>
+                </div>
+
+                <div class="campo">
+                    <label>
+                        <label for="opcao"><strong>Opção de Curso</strong></label>
+                        <input type="text" name="opcao" id="opcao">
+                    </label>
+                </div>
+
             </div>
-            
+
+            <div class="divBtn">
+                <button onclick="cadastrar()">Concluído</button>
+            </div>
+
         </div>
 
     </main>
+
+    
 </body>
 
 </html>

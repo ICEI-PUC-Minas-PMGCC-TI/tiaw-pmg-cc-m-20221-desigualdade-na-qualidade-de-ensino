@@ -8,7 +8,6 @@
     --cor6: #0d41e1;
     --cor7: #ffff;
     --cor8: #000;
-
 }
 
 html {
@@ -46,6 +45,7 @@ main {
     padding: 5px;
     width: 180px;
     outline: none;
+    margin-bottom: 15px;
 }
 
 .wrapper-login button {
@@ -56,7 +56,7 @@ main {
     border-radius: 15px;
     border-color: var(--cor5);
     margin-bottom: 10px;
-    
+
 }
 
 .wrapper-login button:hover {
@@ -74,89 +74,52 @@ main {
 
 /* ----- REGISTRO INICIO ----- */
 
-.wrapper-registro{
+.wrapperRegistro {
     background-color: var(--cor7);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 80px;
     position: absolute;
-    border-radius: 15px;
-    margin-top: 15px;
+    border-radius: 15px;   
+}
+
+.divTitulo{
+    margin-bottom: 25px;
     text-align: center;
 }
 
-.passos{
-    width: 100%;
+.wrapperForm1{
+    float: left;
 }
 
-.passos ol {
-    counter-reset: item;
-    list-style-type: none;
-    padding-left: 20px;
-    margin-left: 20px;
-    border-style: solid;
-    border-color: var(--cor4);
-    display: inline-block;
-    border-width: 1px 0 0 0;
-    padding: 15px 0 0;
-      
-  }
+.wrapperForm2{
+    margin-left: 15px;
+    float: right;
+}
 
-.passos li {
-    position: relative;
-    line-height: 30px;
-    margin-bottom: 30px;
-    display: inline-block;
-    margin: 0 15px;
-  }
-  
-.passos li::before {
-    counter-increment: item;
-    content: counter(item);
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    border: 1px var(--cor4) solid;
-    background-color: var(--cor7); /* Cor de Fundo */
-    color: var(--cor8); /* Cor da Letra */
-    text-align: center;
-    top: -30px;
-    left: 50%;
-    margin-left: -15px;
-  }
+.campo {
+    margin-bottom: 1em;
+}
 
-.wrapper-registro input {
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+
+.wrapperRegistro input {
     padding: 3px;
-    height: 25px;
     outline: none;
+    margin-bottom: 5px;
 }
 
-.nome-registro, .email-registro{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.div-senhas{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.senha-registro{
-    width: 46%;
-}   
-
-.repeteSenha-registro{
-    width: 46%;
-}
-
-.div-btn{
+.divBtn {
     margin-top: 10px;
     text-align: center;
 }
 
-.wrapper-registro button {
+.wrapperRegistro button {
     background-color: var(--cor5);
     color: var(--cor7);
     width: 180px;
@@ -165,32 +128,58 @@ main {
     border-color: var(--cor5);
 }
 
-.wrapper-registro button:hover {
+.wrapperRegistro button:hover {
     transform: translateY(-2px);
     box-shadow: 3px 3px var(--cor6);
     cursor: pointer;
 }
 
-.wrapper-registro button:active {
+.wrapperRegistro button:active {
     transform: translateY(+2px);
     box-shadow: 0px 0px;
 }
 
-.wrapper-registro span{
+/* ----- REGISTRO FIM ----- */
+
+/* INDEX INICIO */
+
+.home{
     text-align: center;
+    background-color: var(--cor7);
+    padding: 15px;
+    border-radius: 15px;
 }
 
-#formulario1{
+section{
+    background-color: var(--cor2);
+    padding: 15px;
     text-align: left;
+    color: var(--cor7);
+}
+.s1{
+    background-color: var(--cor1);
 }
 
-#formulario2{
-    text-align: left;
-    display: none;
-}
-
-#formulario2, input{
+.home button{
+    background-color: var(--cor5);
+    color: var(--cor7);
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: var(--cor5);
     margin-top: 15px;
 }
 
-/* ----- REGISTRO FIM ----- */
+.home button:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px var(--cor6);
+    cursor: pointer;
+}
+
+.home button:active {
+    transform: translateY(+2px);
+    box-shadow: 0px 0px;
+} 
+
+
+/* INDEX FIM */

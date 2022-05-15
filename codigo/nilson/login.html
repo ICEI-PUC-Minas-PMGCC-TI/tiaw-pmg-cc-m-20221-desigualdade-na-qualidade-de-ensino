@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Login - NOME</title>
 
-    <script src="script.js" defer></script>
+    <script src="login.js"></script>
 </head>
 
 <body>
@@ -16,19 +16,21 @@
         <div class="wrapper-login">
             <h1>Login</h1>
             <br>
-            <input type="text" id="login-email" placeholder="E-mail">
+            <label for="loginEmail"></label>
+            <input type="text" id="loginEmail" placeholder="E-mail" name="email">
             <br>
-            <input type="password" id="login-senha" placeholder="Senha">
+            <label for="loginSenha"></label>
+            <input type="password" id="loginSenha" placeholder="Senha" name="senha">
             <br><br>
-            <button onclick="verificaLogin()"><strong>Entrar</strong></button>
+            <button onclick="verificacao()">Entrar</button>
             <br><br>
-            <a href="#">Esqueceu sua senha?</a>
+            <!-- <a href="#">Esqueceu sua senha?</a> -->
             <br><br>
             <p>Não tem uma conta? <a href="registro.html">Crie uma agora</a>.</p>
         </div>
 
     </main>
-    
+
 </body>
 
 </html>
