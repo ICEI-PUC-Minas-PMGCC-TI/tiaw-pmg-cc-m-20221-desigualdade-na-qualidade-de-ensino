@@ -16,11 +16,16 @@ function verificacao(){
     listaUser.forEach((item) => {
         if(emailLogin == item.emailCad && senhaLogin == item.senhaCad){
             userValid = {
+                nome: item.nomeCad,
                 email: item.emailCad,
-                senha: item.senhaCad
+                senha: item.senhaCad,
+                sexo: item.sexoCad,
+                curso: item.cursoCad
             }
         }
     });
+    localStorage.setItem('userValid', JSON.stringify(userValid));
+
 
     let token = Math.random().toString(16).substring(2);
     localStorage.setItem('token', token);

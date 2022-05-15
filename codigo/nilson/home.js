@@ -5,6 +5,7 @@ if (localStorage.getItem('token') == null) {
 
 function logout() {
     localStorage.removeItem('token');
+    localStorage.removeItem('userValid');
     window.location.href = 'login.html';
 }
 
@@ -14,11 +15,11 @@ function addInfo() {
     pSexo = document.getElementById('sexo');
     pCurso = document.getElementById('curso');
 
-    listaUser = JSON.parse(localStorage.getItem('listaUser'));
+    userValid = JSON.parse(localStorage.getItem('userValid'));
 
-    pNome.innerHTML = listaUser[0].nomeCad;
-    pEmail.innerHTML = listaUser[0].emailCad
-    pSexo.innerHTML = listaUser[0].sexoCad
-    pCurso.innerHTML = listaUser[0].cursoCad
+    pNome.innerHTML = userValid.nome;
+    pEmail.innerHTML = userValid.email;
+    pSexo.innerHTML = userValid.sexo;
+    pCurso.innerHTML = userValid.curso;
 }
 
