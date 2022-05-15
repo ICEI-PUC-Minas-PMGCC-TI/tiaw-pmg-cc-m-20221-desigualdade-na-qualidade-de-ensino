@@ -7,7 +7,6 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * André Mendes Rodrigues
 * Lucas de Oliveira Lopes
 * Nilson Deon Cordeiro Filho
-* Theo Alvarenga Torres Dias
 
 ## Professores responsáveis
 
