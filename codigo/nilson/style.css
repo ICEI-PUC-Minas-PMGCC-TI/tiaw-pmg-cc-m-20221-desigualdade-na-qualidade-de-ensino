@@ -1,0 +1,185 @@
+:root {
+    --cor0: #07c8f9;
+    --cor1: #08b2f5;
+    --cor2: #099bf1;
+    --cor3: #0a85ed;
+    --cor4: #0b6ee9;
+    --cor5: #0c58e5;
+    --cor6: #0d41e1;
+    --cor7: #ffff;
+    --cor8: #000;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor5);
+}
+
+main {
+    padding: 80px;
+}
+
+/* ----- LOGIN INICIO ----- */
+.wrapper-login {
+    background-color: var(--cor7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    position: absolute;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.wrapper-login input {
+    padding: 5px;
+    width: 180px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.wrapper-login button {
+    background-color: var(--cor5);
+    color: var(--cor7);
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: var(--cor5);
+    margin-bottom: 10px;
+
+}
+
+.wrapper-login button:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px var(--cor6);
+    cursor: pointer;
+}
+
+.wrapper-login button:active {
+    transform: translateY(+2px);
+    box-shadow: 0px 0px;
+}
+
+/* ----- LOGIN FIM ----- */
+
+/* ----- REGISTRO INICIO ----- */
+
+.wrapperRegistro {
+    background-color: var(--cor7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    position: absolute;
+    border-radius: 15px;   
+}
+
+.divTitulo{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.wrapperForm1{
+    float: left;
+}
+
+.wrapperForm2{
+    margin-left: 15px;
+    float: right;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+
+.wrapperRegistro input {
+    padding: 3px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.divBtn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.wrapperRegistro button {
+    background-color: var(--cor5);
+    color: var(--cor7);
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: var(--cor5);
+}
+
+.wrapperRegistro button:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px var(--cor6);
+    cursor: pointer;
+}
+
+.wrapperRegistro button:active {
+    transform: translateY(+2px);
+    box-shadow: 0px 0px;
+}
+
+/* ----- REGISTRO FIM ----- */
+
+/* INDEX INICIO */
+
+.home{
+    text-align: center;
+    background-color: var(--cor7);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+section{
+    background-color: var(--cor2);
+    padding: 15px;
+    text-align: left;
+    color: var(--cor7);
+}
+.s1{
+    background-color: var(--cor1);
+}
+
+.home button{
+    background-color: var(--cor5);
+    color: var(--cor7);
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: var(--cor5);
+    margin-top: 15px;
+}
+
+.home button:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px var(--cor6);
+    cursor: pointer;
+}
+
+.home button:active {
+    transform: translateY(+2px);
+    box-shadow: 0px 0px;
+} 
+
+
+/* INDEX FIM */
