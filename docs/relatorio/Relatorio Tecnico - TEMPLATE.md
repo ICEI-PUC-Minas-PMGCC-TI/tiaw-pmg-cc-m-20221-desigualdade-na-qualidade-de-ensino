@@ -13,7 +13,7 @@ Os membros do grupo são:
 - André Mendes Rodrigues
 - Lucas de Oliveira Lopes
 - Nilson Deon Cordeiro Filho
-- Theo Alvarenga Torres Dias
+
 
 # Estrutura do Documento
 
@@ -176,7 +176,7 @@ O método "Design Thinking" foi utilizado na fase de concepção do projeto. Já
 | André Mendes Rodrigues | Desenvolvedor |
 | Lucas de Oliveira Lopes | Desenvolvedor e Scrum Master |
 | Nilson Deon Cordeiro Filho | Desenvolvedor e Product Owner  |
-| Theo Alvarenga Torres Dias | Desenvolvedor |
+
 
 ## Ferramentas
 
