@@ -57,11 +57,11 @@ Uma das características que mais chamam a atenção nas universidades brasileir
 
 ## Objetivos
 
-O site (nome ainda não decidido) tem o intuito de ajudar os vestibulandos a se prepararem melhor para o seu exame. Os instruindo sobre como organizar os estudos e o que estudar. 
+O Mentor tem o intuito de ajudar os vestibulandos a se prepararem melhor para o seu exame. Os instruindo sobre como organizar os estudos e o que estudar. 
 
 ## Justificativa
 
-A motivação vem do fato de que a maioria dos vestibulandos não receberam um ensino de qualidade e não podem arcar com um curso preparatório. O que os fazem estudar por conta própria, mesmo sem saber o que estudar ou como organizar os estudos.  E aí o site (nome ainda não decidido) entra em ação.  
+A motivação vem do fato de que a maioria dos vestibulandos não receberam um ensino de qualidade e não podem arcar com um curso preparatório. O que os fazem estudar por conta própria, mesmo sem saber o que estudar ou como organizar os estudos.  E aí o Mentor entra em ação.  
 
 ## Público-Alvo
 
@@ -214,9 +214,6 @@ O método "Design Thinking" foi utilizado na fase de concepção do projeto. Já
 > - `bugfix`: uma funcionalidade encontra-se com problemas
 > - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
