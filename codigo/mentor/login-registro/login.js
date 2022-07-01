@@ -31,7 +31,7 @@ function verificacao(){
     localStorage.setItem('token', token);
 
     if(emailLogin == userValid.email && senhaLogin == userValid.senha){
-        window.location.href = 'index.html';
+        window.location.href = '../index.html';
     }
     else{
         alert('Email e/ou senha estão incorretos');

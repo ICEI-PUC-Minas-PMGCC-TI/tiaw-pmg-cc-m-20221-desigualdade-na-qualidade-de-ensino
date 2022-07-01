@@ -190,6 +190,13 @@
     flex-wrap: nowrap;
 }
 
+.sidebar li img {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 10px;
+}
 
 .sidebar li.profile .name,
 .sidebar li.profile {
@@ -203,7 +210,7 @@
     font-size: 12px;
 }
 
-.sidebar .profile #log_out {
+.sidebar .profile #log {
     position: absolute;
     top: 50%;
     right: 0;
@@ -216,10 +223,16 @@
     transition: all 0.5s ease;
 }
 
-.sidebar.open .profile #log_out {
+.sidebar .profile #log:hover {
+    cursor: pointer;
+}
+
+.sidebar.open .profile #log {
     width: 50px;
     background: none;
 }
+
+
 
 @media (max-width: 420px) {
     .sidebar li .tooltip {
@@ -227,128 +240,20 @@
     }
 }
 
-/* To-do list / Planner */
 
-.wrapper {
-    box-sizing: border-box;
-    padding: 30px;
-    width: calc(100% - 200px) - 30px;
-    height: calc(100% - 90px);
-    margin-top: 20px;
-    border-radius: 15px;
+/* MAIN INICIO */
+.home-section {
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-.wrapper ul {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 20px;
-}
-
-.header button {
-    position: absolute;
-    right: 20%;
-    margin-top: -30px;
-}
-
-.header i {
-    font-size: 30px;
-    margin-left: 15px;
-}
-
-.to-do {
-    margin: auto;
-    width: 60%;
-}
-
-.textInsert {
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    outline: none;
-    width: 90%;
-}
-
-.divInsert {
-    padding: 10px;
-    background-color: var(--cor2);
-    border-radius: 10px;
-    display: flex;
-    box-shadow: 6px 5px 10px 0px var(--cor2);
-}
-
-button {
-    width: 10%;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-}
-
-.bx-plus {
-    font-size: 30px;
-    margin-left: 10px;
-    background-color: var(--cor3);
-    border-radius: 50%;
-    padding: 5px;
-    color: white;
-}
-
-.divLi {
-    margin-top: 20px;
-    padding: 10px;
-    background: lightgray;
-    border-radius: 10px;
-    box-shadow: 6px 5px 10px 0px grey;
-    display: flex;
-    align-items: center;
-}
-
-.divLi span {
-    width: 80%;
-    color: dimgray;
-}
-
-.divLi input {
-    width: 10%;
-    outline: none;
-    accent-color: currentcolor;
-}
-
-.divLi i {
-    font-size: 22px;
-    color: brown;
-}
-
-.wrapper li {
-    list-style-type: none;
-}
-
-.line-through {
-    text-decoration: line-through;
-}
-
-@media (max-width: 775px) {
-    input {
-        width: 70%;
-    }
-
-    .divInsert button {
-        width: 30%;
-    }
-
-    i {
-        font-size: 30px;
-        padding: 0px;
-    }
-
-    p {
-        font-size: x-large;
-    }
+.sidebar.open~.home-section {
+    left: 250px;
+    width: calc(100% - 250px);
 }
