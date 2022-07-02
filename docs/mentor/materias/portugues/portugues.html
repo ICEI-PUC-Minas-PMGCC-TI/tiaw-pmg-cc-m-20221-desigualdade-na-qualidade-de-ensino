@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../materias.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../../img/logo.png" type="image/x-icon">
+    <title>Mentor - Português</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="details">
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="../../index.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="../../planner/todolist.html" id="afazeres">
+                    <i class='bx bx-food-menu'></i>
+                    <span class="links_name">Afazeres</span>
+                </a>
+                <span class="tooltip">Afazeres</span>
+            </li>
+            <li>
+                <a href="../../perfil/perfil.html" id="perfil">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Perfil</span>
+                </a>
+                <span class="tooltip">Perfil</span>
+            </li>
+
+            <hr>
+            <li>
+                <a href="../ingles/ingles.html">
+                    <i class='bx'><img src="../../img/icones/eng.png" alt="eng.png"></i>
+                    <span class="links_name">Inglês</span>
+                </a>
+                <span class="tooltip">Inglês</span>
+            </li>
+            <li>
+                <a href="../espanhol/espanhol.html">
+                    <i class='bx'><img src="../../img/icones/spanish.png" alt="spanish.png"></i>
+                    <span class="links_name">Espanhol</span>
+                </a>
+                <span class="tooltip">Espanhol</span>
+            </li>
+            
+            <li>
+                <a href="../redacao/redacao.html">
+                    <i class='bxt'><img src="../../img/icones/redação.png" alt="redação.png"></i>
+                    <span class="links_name">Redação</span>
+                </a>
+                <span class="tooltip">Redação</span>
+            </li>
+            <li>
+                <a href="../geografia/geografia.html">
+                    <i class='bx'><img src="../../img/icones/geografia.png" alt="geografia.png"></i>
+                    <span class="links_name">Geografia</span>
+                </a>
+                <span class="tooltip">Geografia</span>
+            </li>
+            <li>
+                <a href="../historia/historia.html">
+                    <i class='bx'><img src="../../img/icones/historia.png" alt="historia.png"></i>
+                    <span class="links_name">História</span>
+                </a>
+                <span class="tooltip">História</span>
+            </li>
+            <li>
+                <a href="../filosofia/filosofia.html">
+                    <i class='bx'><img src="../../img/icones/filosofia.png" alt="filosofia.png"></i>
+                    <span class="links_name">Filosofia</span>
+                </a>
+                <span class="tooltip">Filosofia</span>
+            </li>
+            <li>
+                <a href="../biologia/biologia.html">
+                    <i class='bx'><img src="../../img/icones/biologia.png" alt="biologia.png"></i>
+                    <span class="links_name">Biologia</span>
+                </a>
+                <span class="tooltip">Biologia</span>
+            </li>
+            <li>
+                <a href="../fisica/fisica.html">
+                    <i class='bx'><img src="../../img/icones/fisica.png" alt="fisica.png"></i>
+                    <span class="links_name">Física</span>
+                </a>
+                <span class="tooltip">Física</span>
+            </li>
+            <li>
+                <a href="../quimica/quimica.html">
+                    <i class='bx'><img src="../../img/icones/quimica.png" alt="quimica.png"></i>
+                    <span class="links_name">Química</span>
+                </a>
+                <span class="tooltip">Química</span>
+            </li>
+            <li>
+                <a href="../matematica/matematica.html">
+                    <i class='bx'><img src="../../img/icones/matematica.png" alt="matematica.png"></i>
+                    <span class="links_name">Matemática</span>
+                </a>
+                <span class="tooltip">Matemática</span>
+            </li>
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="" alt="foto-usuario">
+                    <div class="name"></div>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    <header>
+        <h1>Mentor</h1>
+    </header>
+    <main class="home-section">
+
+        <section>
+            
+            <div class="grafico">
+                <h1>Gráfico</h1>
+                <img src="../../img/graficos/portugues.png" alt=""onclick="clique(this)">
+                <div id="janelaModal" class="modalVisual">
+                    <span class="fechar">x</span>
+                    <img class="modalConteudo" id="imgModal">
+              </div>
+            </div>
+            <div>
+                <div class="canais">
+                    <h1>Canais para estudar Português</h1>
+                    <br>
+
+                    <a href="https://www.youtube.com/c/ProfessorNoslen" target="_blank">Professor Noslen</a><br>
+                    <a href="https://www.youtube.com/c/TextandoPortugu%C3%AAs" target="_blank">Textando Português</a><br>
+                    <a href="https://www.youtube.com/c/professorfabioalves" target="_blank">GramáticaEmVídeo - Prof. Fábio Alves</a>
+    
+                </div>
+                <div class="materias">
+                    <h1>Conteúdos Importantes</h1>
+                    <br>
+                    <input type="checkbox" name="" id="int"><span id="int-txt"> Interpretação de texto</span></input><br><br>
+                    <input type="checkbox" name="" id="lit"><span id="lit-txt"> Literatura</span></input><br><br>
+                    <input type="checkbox" name="" id="gen"><span id="gen-txt"> Gêneros Textuais</span></input><br><br>
+                    <input type="checkbox" name="" id="lin"><span id="lin-txt"> Linguística</span></input><br><br>
+                    <input type="checkbox" name="" id="gra"><span id="gra-txt"> Gramática</span></input>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+
+    <script src="portugues.js"></script>
+</body>
+
+</html>

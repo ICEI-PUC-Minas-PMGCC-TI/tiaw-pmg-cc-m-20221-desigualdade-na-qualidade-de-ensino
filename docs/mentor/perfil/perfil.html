@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="perfil.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>Mentor - Perfil</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="details">
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="../index.html">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="../planner/todolist.html" id="afazeres">
+                    <i class='bx bx-food-menu'></i>
+                    <span class="links_name">Afazeres</span>
+                </a>
+                <span class="tooltip">Afazeres</span>
+            </li>
+            
+            <hr>
+            <li>
+                <a href="../materias/ingles/ingles.html">
+                    <i class='bx'><img src="../img/icones/eng.png" alt="eng.png"></i>
+                    <span class="links_name">Inglês</span>
+                </a>
+                <span class="tooltip">Inglês</span>
+            </li>
+            <li>
+                <a href="../materias/espanhol/espanhol.html">
+                    <i class='bx'><img src="../img/icones/spanish.png" alt="spanish.png"></i>
+                    <span class="links_name">Espanhol</span>
+                </a>
+                <span class="tooltip">Espanhol</span>
+            </li>
+            <li>
+                <a href="../materias/portugues/portugues.html">
+                    <i class='bx'><img src="../img/icones/brazil.png" alt="brazil.png"></i>
+                    <span class="links_name">Português</span>
+                </a>
+                <span class="tooltip">Português</span>
+            </li>
+            <li>
+                <a href="../materias/redacao/redacao.html">
+                    <i class='bxt'><img src="../img/icones/redação.png" alt="redação.png"></i>
+                    <span class="links_name">Redação</span>
+                </a>
+                <span class="tooltip">Redação</span>
+            </li>
+            <li>
+                <a href="../materias/geografia/geografia.html">
+                    <i class='bx'><img src="../img/icones/geografia.png" alt="geografia.png"></i>
+                    <span class="links_name">Geografia</span>
+                </a>
+                <span class="tooltip">Geografia</span>
+            </li>
+            <li>
+                <a href="../materias/historia/historia.html">
+                    <i class='bx'><img src="../img/icones/historia.png" alt="historia.png"></i>
+                    <span class="links_name">História</span>
+                </a>
+                <span class="tooltip">História</span>
+            </li>
+            <li>
+                <a href="../materias/filosofia/filosofia.html">
+                    <i class='bx'><img src="../img/icones/filosofia.png" alt="filosofia.png"></i>
+                    <span class="links_name">Filosofia</span>
+                </a>
+                <span class="tooltip">Filosofia</span>
+            </li>
+            <li>
+                <a href="../materias/biologia/biologia.html">
+                    <i class='bx'><img src="../img/icones/biologia.png" alt="biologia.png"></i>
+                    <span class="links_name">Biologia</span>
+                </a>
+                <span class="tooltip">Biologia</span>
+            </li>
+            <li>
+                <a href="../materias/fisica/fisica.html">
+                    <i class='bx'><img src="../img/icones/fisica.png" alt="fisica.png"></i>
+                    <span class="links_name">Física</span>
+                </a>
+                <span class="tooltip">Física</span>
+            </li>
+            <li>
+                <a href="../materias/quimica/quimica.html">
+                    <i class='bx'><img src="../img/icones/quimica.png" alt="quimica.png"></i>
+                    <span class="links_name">Química</span>
+                </a>
+                <span class="tooltip">Química</span>
+            </li>
+            <li>
+                <a href="../materias/matematica/matematica.html">
+                    <i class='bx'><img src="../img/icones/matematica.png" alt="matematica.png"></i>
+                    <span class="links_name">Matemática</span>
+                </a>
+                <span class="tooltip">Matemática</span>
+            </li>
+            <li class="profile">
+            </li>
+        </ul>
+    </div>
+    <header>
+        <h1>Mentor</h1>
+    </header>
+    <main class="home-section">
+        
+        <section>
+                <div class="usuario">
+                    <a href="../index.html">Retornar</a>
+                    <div class="profile-pic-div">
+                        <img src="image.jpg" id="photo">
+                        <input type="file" id="file">
+                        <label for="file" id="uploadBtn">Choose Photo</label>
+                      </div>
+                    <div class="info1">
+                        <label for="nome">Nome: <input type="text" id="lbNome"></label><br>
+                        <br>
+                        <label for="email">E-Mail: <input type="email" id="lbEmail"></label><br>
+                        <br>
+                        <label for="nascimento">Nascimento: <input type="date" id="lbDate"></label>
+                    </div>
+                    <div class="info2">
+
+                        <label for="curso">Curso: <input type="text" id="lbCurso"></label><br>
+                        <br>
+                        <Label for="senha1">Senha: <input type="password" id="lbS1"></Label><br>
+                        <br>
+                        <label for="senha2">Repetir senha: <input type="password" id="lbS2"></label>
+                    </div>
+                    <button id="btn" onclick="save()">Salvar</button>
+                </div>
+        </section>
+
+    </main>
+    
+    <script src="perfil.js"></script>
+</body>
+
+</html>
