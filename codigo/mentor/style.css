@@ -209,6 +209,13 @@
 .sidebar li.profile {
     font-size: 12px;
 }
+.sidebar .profile #log:hover {
+    cursor: pointer;
+}
+
+.sidebar .profile li:hover {
+    cursor: pointer;
+}
 
 .sidebar .profile #log {
     position: absolute;
@@ -223,15 +230,10 @@
     transition: all 0.5s ease;
 }
 
-.sidebar .profile #log:hover {
-    cursor: pointer;
-}
-
 .sidebar.open .profile #log {
     width: 50px;
     background: none;
 }
-
 
 
 @media (max-width: 420px) {
@@ -297,6 +299,12 @@ main {
     padding: 5px;
     width: max-content;
 }
+
+.divLi a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+
 .lista li{
     list-style: none;
 }
@@ -308,6 +316,18 @@ main {
     height: 55%;
     margin: auto;
     padding: 15px;
+}
+
+@media screen and (max-width:412px) {
+    .tarefas{
+        width: 100%;
+    }
+    .dicas{
+        width: 100%;
+    }
+    .sidebar i{
+        margin-top: 15px;
+    }
 }
 
 .dicas h1{
@@ -328,9 +348,11 @@ main {
     text-align: center;
     font-size: large;
 }
+
 #sl:hover{
     cursor: pointer;
 }
+
 .posts{
     display: flex;
     flex-wrap: wrap;
@@ -349,10 +371,6 @@ main {
     max-height: 290px;
 }
 
-.info a{
-    text-decoration: none;
-}
-
 .info h3{
     color: var(--cor3);
     display: flex;
@@ -361,18 +379,9 @@ main {
     padding: 15px 25px 25px 25px;
 }
 
-
 .sinopse {
-    background-color: var(--cor1);
-    color: white;
+    color: black;
     padding: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    max-height: 100%;
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
 }
 
 .sinopse button {
@@ -382,12 +391,6 @@ main {
     margin-top: 10px;
     font-weight: 600;
     padding: 5px;
-}
-
-.sinopse button:hover {
     cursor: pointer;
 }
 
-.poster:hover .sinopse {
-    transform: translateY(0);
-}

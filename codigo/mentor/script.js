@@ -1,7 +1,8 @@
 let sidebar = document.querySelector(".sidebar");
 let closeBtn = document.querySelector("#btn");
 let log = document.querySelector(".profile");
-let afazeres = document.querySelector("#afazeres");
+let afazeres = document.getElementById("afazeres");
+let perfil = document.getElementById('perfil');
 let posts = document.querySelector(".posts");
 let filhosSl = document.querySelectorAll("#sl > *");
 let ul2 = document.querySelector('.lista');
@@ -19,17 +20,31 @@ function menuBtnChange() {
     closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
   }
 }
-
-
-if (localStorage.getItem('token') == null) {
-  log.innerHTML = '<i class="bx bx-log-in" id="log" ></i>'
+if (localStorage.getItem('token') == null) { // verificação de login
+  log.innerHTML = `
+  <ul>
+    <li>
+      <i class="bx bx-log-in" id="log" ></i>
+      <span class="links_name">Login</span>
+      <span class="tooltip">Login</span>
+    </li>
+  </ul>`
   afazeres.href = 'login-registro/login.html';
+  perfil.href = 'login-registro/login.html';
   log.addEventListener('click', () => {
     window.location.href = 'login-registro/login.html';
   })
-} else {
-  log.innerHTML = '<i class="bx bx-log-out" id="log" ></i>'
+} else { // logout
+  log.innerHTML = `
+  <ul>
+    <li>
+      <i class="bx bx-log-out" id="log" ></i>
+      <span class="links_name">Logout</span>
+      <span class="tooltip">Logout</span>
+    </li>
+  </ul>`
   afazeres.href = 'planner/todolist.html';
+  perfil.href = 'perfil/perfil.html';
   log.addEventListener('click', () => {
     localStorage.removeItem('token');
     localStorage.removeItem('userValid');
@@ -60,8 +75,8 @@ let arrayTexto = [
 
 let arrayTag = ['tipo1', 'tipo1', 'tipo3'];
 
-addInfo();
-function addInfo() {
+addDicas();
+function addDicas() { // adicionando dicas
   posts.innerHTML = '';
 
   for (let i = 0; i < arrayTitulo.length; i++) {
@@ -78,7 +93,8 @@ function addInfo() {
  
       <img src="${img}" alt="${titulo}">
       <div class="info">
-          <a href="Dicas/dica.html"><h3>${titulo}</h3></a>
+          <h3>${titulo}</h3>
+          
       </div>
       <div class="sinopse">
           <p>${sinopse}</p>
@@ -88,7 +104,7 @@ function addInfo() {
     console.log(i)
     posts.appendChild(div);
 
-    document.getElementById(i).addEventListener('click', () => {
+    document.getElementById(i).addEventListener('click', () => { // abrir dicas
       let array = [];
 
       array.push(titulo);
@@ -101,38 +117,6 @@ function addInfo() {
     });
 
   }
-
-  list = localStorage.getItem('todolist');
-  todo = JSON.parse(list);
-  
-  let cont = todo.length;
-  todo.forEach(element => {
-    if (element.status == 'checked') {
-      cont--;
-    }
-  });
-
-  if(cont > 0){
-    todo.forEach(element => {
-      if (element.status != 'checked' ) {
-          li = document.createElement('li');
-          li.innerHTML = `
-          <div class="divLi">
-            <div >${element.item}</div>
-          </div>
-        `
-          ul2.appendChild(li);
-      }
-    });
-  }else{
-      li = document.createElement('li');
-      li.innerHTML = `
-      <div class="divLi">
-        <div >Nenhuma tarefa pendente</div>
-      </div>
-    `
-      ul2.appendChild(li);
-    }
 }
 
 for (let i = 0; i < filhosSl.length; i++) {
@@ -204,3 +188,64 @@ for (let i = 0; i < filhosSl.length; i++) {
 
   })
 }
+
+addTarefas()
+function addTarefas() {
+  
+  list = localStorage.getItem('todolist');
+  todo = JSON.parse(list);
+  if (todo == null) {
+    if(localStorage.getItem('token') == null){
+      li = document.createElement('li');
+        li.innerHTML = `
+        <div class="divLi">
+          <div ><a href="login-registro/login.html">Logue</a> para ver a suas tarefas</div>
+        </div>
+      `
+        ul2.appendChild(li);
+    }else{
+      li = document.createElement('li');
+        li.innerHTML = `
+        <div class="divLi">
+          <div >Nenhuma tarefa pendente</div>
+        </div>
+      `
+        ul2.appendChild(li);
+    }
+
+  }else{
+    let cont = todo.length;
+    if (localStorage.getItem('todolist') == null) {
+        alert('a')
+      }
+    todo.forEach(element => {
+      if (element.status == 'checked') {
+        cont--;
+      }
+      
+    });
+    if(cont > 0){
+      todo.forEach(element => {
+        if (element.status != 'checked' ) {
+            li = document.createElement('li');
+            li.innerHTML = `
+            <div class="divLi">
+              <div >${element.item}</div>
+            </div>
+          `
+            ul2.appendChild(li);
+        }
+      });
+    }else{
+        li = document.createElement('li');
+        li.innerHTML = `
+        <div class="divLi">
+          <div >Nenhuma tarefa pendente</div>
+        </div>
+      `
+        ul2.appendChild(li);
+      }
+  }
+}
+
+

@@ -190,7 +190,6 @@
     flex-wrap: nowrap;
 }
 
-
 .sidebar li.profile .name,
 .sidebar li.profile {
     font-size: 15px;
@@ -202,8 +201,15 @@
 .sidebar li.profile {
     font-size: 12px;
 }
+.sidebar .profile #log:hover {
+    cursor: pointer;
+}
 
-.sidebar .profile #log_out {
+.sidebar .profile li:hover {
+    cursor: pointer;
+}
+
+.sidebar .profile #log {
     position: absolute;
     top: 50%;
     right: 0;
@@ -216,7 +222,7 @@
     transition: all 0.5s ease;
 }
 
-.sidebar.open .profile #log_out {
+.sidebar.open .profile #log {
     width: 50px;
     background: none;
 }
@@ -334,7 +340,11 @@ button {
     text-decoration: line-through;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 810px) {
+    .wrapper{
+        margin-left: 50px;
+    }
+
     input {
         width: 70%;
     }
@@ -351,4 +361,8 @@ button {
     p {
         font-size: x-large;
     }
+    .sidebar i{
+        margin-top: 15px;
+    }
 }
+

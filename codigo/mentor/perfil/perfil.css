@@ -210,6 +210,14 @@
     font-size: 12px;
 }
 
+.sidebar .profile #log:hover {
+    cursor: pointer;
+}
+
+.sidebar .profile li:hover {
+    cursor: pointer;
+}
+
 .sidebar .profile #log {
     position: absolute;
     top: 50%;
@@ -223,16 +231,10 @@
     transition: all 0.5s ease;
 }
 
-.sidebar .profile #log:hover {
-    cursor: pointer;
-}
-
 .sidebar.open .profile #log {
     width: 50px;
     background: none;
 }
-
-
 
 @media (max-width: 420px) {
     .sidebar li .tooltip {
@@ -241,7 +243,23 @@
 }
 
 
-/* MAIN INICIO */
+/* Perfil */
+.home-section {
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+    padding: 25px;
+}
+
+.sidebar.open~.home-section {
+    left: 250px;
+    width: calc(100% - 250px);
+}
 
 header {
     background-color: var(--cor1);
@@ -254,100 +272,219 @@ header h1 {
     margin: auto;
 }
 
-
-.home-section {
-    position: relative;
-    background: #E4E9F7;
-    min-height: 100vh;
-    top: 0;
-    left: 78px;
-    width: calc(100% - 78px);
-    transition: all 0.5s ease;
-    z-index: 2;
-    padding: 15px;
-}
-
-.sidebar.open~.home-section {
-    left: 250px;
-    width: calc(100% - 250px);
-}
-
-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+section {
     width: 80%;
+    height: 500px;
+    background-color: var(--cor2);
+    padding: 25px;
     margin: auto;
     margin-top: 50px;
 }
 
-.grafico, .canais, .materias{
-    background-color: var(--cor2);
-    margin-bottom: 15px;
-    padding: 15px;
-    color: #fff;
+.wrapper {
+    width: 100%;
 }
 
-.grafico{
-    margin-left: 10px;
-    width: 90%;
+.usuario {
+    margin: auto;
 }
-.grafico img{
+
+.usuario a{
+    text-decoration: none;
+    color: var(--cor3);
+    font-size: larger;
+    display: none;
+}
+
+.profile-pic-div {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid grey;
+    background-color: gray;
+}
+
+#photo {
+    height: 100%;
     width: 100%;
+}
+
+#file {
+    display: none;
+}
+
+#uploadBtn {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.info1{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+}
+.info2{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+button {
+    
+    position: absolute;
+    top: 70%;
+    left: 43%;
+    background-color: var(--cor3);
+    color: white;
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: var(--cor3);
+    margin-bottom: 10px;
+
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px var(--cor3);
     cursor: pointer;
 }
-#redacaoCanais{
-    width: 90%;
-}
 
-.canais a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.3em;
-}
-
-.canais a:hover{
-    color: var(--cor3);
-}
-
-.modalVisual{
-    display:none;
-    position:fixed;
-    z-index:1;
-    padding-top:100px;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    overflow:auto;
-    background-color:rgba(0,0,0,0.8);
-}
-
-.modalConteudo{
-    margin:auto;
-    display:block;
-    width:100%;
-    max-width:800px;
-}
-
-.fechar{
-    position:absolute;
-    top:15px;
-    right:35px;
-    color:#fff;
-    font-size:40px;
-    font-weight:bold;
-    cursor:pointer;
-}
 
 @media screen and (max-width:412px) {
     section{
+        height: 800px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .home-section {
+        background: #E4E9F7;
+        min-height: 100vh;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        transition: all 0.5s ease;
+        z-index: 2;
+        padding: 25px;
+    }
+
+    .info1{
+        color: #FFF;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        text-align: center;
+    }
+    .info2{
+        color: #FFF;
+        position: absolute;
+        top: 63%;
+        left: 15%;
+        text-align: center;
+    }
+    
+    button {
+        position: absolute;
+        top: 80%;
+        left: 30%;
+        background-color: var(--cor3);
+        color: white;
+        width: 180px;
+        padding: 5px;
+        border-radius: 15px;
+        border-color: var(--cor3);
+        margin-bottom: 10px;
+    }
+
+    .usuario a{
         display: inline;
     }
-    .grafico{
-        margin-left: 0;
-        width: 100%;
+
+    .profile-pic-div {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid grey;
+        background-color: gray;
     }
-    #redacaoCanais{
+}
+
+@media screen and (max-width: 810px) {
+    section{
+        height: 650px;
         width: 100%;
+        margin-top: 150px;
     }
+
+    .profile-pic-div {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid grey;
+        background-color: gray;
+    }
+
+    .info1{
+        color: #FFF;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        text-align: center;
+    }
+    .info2{
+        color: #FFF;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        text-align: center;
+    }
+    
+    button {
+        position: absolute;
+        top: 65%;
+        left: 38%;
+        background-color: var(--cor3);
+        color: white;
+        width: 180px;
+        padding: 5px;
+        border-radius: 15px;
+        border-color: var(--cor3);
+        margin-bottom: 10px;
+    }   
 }

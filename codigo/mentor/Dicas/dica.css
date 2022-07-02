@@ -303,9 +303,8 @@ section {
     margin: auto;
     color: black;
     background-color: white;
+    width: 70%;
 }
-
-@media screen and () {}
 
 #tt {
     margin-bottom: 15px;
@@ -318,8 +317,6 @@ section {
         margin: auto;
     }
 }
-
-
 
 #img {
     width: 100%;
