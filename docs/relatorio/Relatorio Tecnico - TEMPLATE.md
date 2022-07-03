@@ -313,7 +313,11 @@ Foi utilizado JavaScript para a dinâmicidade da página, juntamente do HTML e C
 
 # Referências
 > https://developer.mozilla.org/en-US/
+> 
 > https://www.alura.com.br/artigos/css-animacoes-com-transitions-animations
+> 
 > https://www.delftstack.com/pt/howto/javascript/javascript-append-html/
+> 
 > https://blog.letscode.com.br/como-hospedar-seu-site-pelo-github-pages/
+> 
 > https://warcontent.com/localstorage-javascript/
