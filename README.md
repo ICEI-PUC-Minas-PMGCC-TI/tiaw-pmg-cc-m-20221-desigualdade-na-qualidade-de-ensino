@@ -15,4 +15,6 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+* Clique aqui para ter acesso à aplicação:
+
+https://icei-puc-minas-pmgcc-ti.github.io/tiaw-pmg-cc-m-20221-desigualdade-na-qualidade-de-ensino/
