@@ -122,30 +122,31 @@ userValid = JSON.parse(localStorage.getItem('userValid'));
 
 save()
 function save() {
-    if (lbNome.value.length > 3 && typeof(lbNome.value) == 'string') {
+    if(lbNome.value.length >= 3 && typeof(lbNome.value) == 'string') {
         userValid.nome = lbNome.value;
         listaUser[userValid.index].nomeCad = lbNome.value;
         lbNome.value = '';
     }
-    if (lbEmail.value.length > 10) {
+    if(lbEmail.value.length >= 10) {
         userValid.email = lbEmail.value;
         listaUser[userValid.index].emailCad = lbEmail.value;
         lbEmail.value = '';
     }
-    if (lbCurso.value.length > 5 && typeof(lbCurso.value) == 'string') {
+    if(lbCurso.value.length > 5 && typeof(lbCurso.value) == 'string') {
         userValid.curso = lbCurso.value;
         listaUser[userValid.index].cursoCad = lbCurso.value;
         lbCurso.value = '';
     }
-    if (lbS1.value == lbS2.value && lbS1.value > 6) {
+    if(lbS1.value == lbS2.value && lbS1.value >= 8) {
         userValid.senha = lbS1.value;
         listaUser[userValid.index].senhaCad = lbS1.value;
         lbS1.value = ''
         lbS2.value = ''
     }
-    if (lbDate.value != '') {
+    if(lbDate.value != '') {
         listaUser[userValid.index].nascimentoCad = lbDate.value;
     }
+    
 
     
     localStorage.setItem('userValid', JSON.stringify(userValid));
