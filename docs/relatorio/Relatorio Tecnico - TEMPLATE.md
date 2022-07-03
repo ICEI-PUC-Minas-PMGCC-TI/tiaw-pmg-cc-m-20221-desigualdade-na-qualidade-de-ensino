@@ -174,7 +174,6 @@ O método "Design Thinking" foi utilizado na fase de concepção do projeto. Já
 | André Mendes Rodrigues | Desenvolvedor |
 | Lucas de Oliveira Lopes | Desenvolvedor e Scrum Master |
 | Nilson Deon Cordeiro Filho | Desenvolvedor e Product Owner  |
-| Theo Alvarenga Torres Dias | Desenvolvedor |
 
 ## Ferramentas
 
