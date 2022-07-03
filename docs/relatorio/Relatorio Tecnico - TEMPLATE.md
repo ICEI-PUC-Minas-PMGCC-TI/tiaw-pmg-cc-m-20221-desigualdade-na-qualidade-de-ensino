@@ -39,7 +39,6 @@ Os membros do grupo são:
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -108,10 +107,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir cadastrar matérias que vai estudar  | ALTA | 
 |RF-002| Mostrar índice de matérias que caíram no Enem | ALTA |
 |RF-003| Mostrar técnicas de estudo                   | ALTA |
-|RF-004| Mostrar aplicativos de que ajudam no estudo  | MÉDIA |
+|RF-004| Dicas de estudo                              | ALTA |
 |RF-005| Pomodoro                                     | BAIXA |
 |RF-006| Fórum de discussões                          | MÉDIA |
 |RF-007| Mostrar onde estudar cada matéria            | ALTA  |
+|RF-008| Notificações                                 | BAIXA |
 
 
 ### Requisitos não Funcionais
@@ -136,34 +136,32 @@ O principal ponto da interface é ser de simples utilização e ser responsivo, 
 
 
 ## User Flow
-![Userflow](https://user-images.githubusercontent.com/81258205/163721031-f6c6be59-3db7-4717-95b0-9fc2faf5657f.png)
+![userflow](https://user-images.githubusercontent.com/81258205/177050617-fdf83b2e-6e50-4efe-9ccf-308c7497d1b0.png)
 
 ## Wireframes
 
+**Alguns wireframes não correspondem a interface final**
+
 ## Home
-![Home](https://user-images.githubusercontent.com/81258205/163720898-c1eade93-8b63-418a-b2f9-aa3e14ff7264.png)
+![home](https://user-images.githubusercontent.com/81258205/177049391-6ad90399-c27e-4462-9f1f-b82ab6b4fd87.jpg)
 
 ## Login
-![login](https://user-images.githubusercontent.com/81258205/163720911-eb3c5388-0d7e-44f3-81ec-d889b94ea18f.png)
+![login](https://user-images.githubusercontent.com/81258205/177049401-9790c367-080c-4a23-be3b-a6392500342a.jpg)
 
 ## Registro
-![Registro](https://user-images.githubusercontent.com/81258205/163721082-de438109-784d-4606-88ba-143c7a66c7d5.png)
-
-## Dashboard
-![Dashboard](https://user-images.githubusercontent.com/81258205/163720939-7e697ee2-f44f-4440-a812-9274feab5a73.png)
+![Registro](https://user-images.githubusercontent.com/81258205/177049411-c69a6b5b-9406-408f-ab22-d00515c6739b.jpg)
 
 ## Matérias
-![Materias](https://user-images.githubusercontent.com/81258205/163720959-7a7a5566-64f9-4df4-b596-2a147942c309.png)
-
-## Conteúdos
-![Conteudos](https://user-images.githubusercontent.com/81258205/163720970-64e8082d-9073-446b-8fde-9c805e34b517.png)
-
-## Dicas
-![Dicas](https://user-images.githubusercontent.com/81258205/163720979-693fd9fc-1944-4d72-b201-108c21374a9c.png)
+![materias](https://user-images.githubusercontent.com/81258205/177049751-154ae02a-4651-4861-9245-83df7bbe708a.jpg)
 
 ## Dica
-![Dica](https://user-images.githubusercontent.com/81258205/163720990-6eadf56d-aff0-4469-9daf-b8a2df3d9df4.png)
+![dica](https://user-images.githubusercontent.com/81258205/177049443-2eb45ef9-e1ae-431d-aa01-60848fd9fc4e.jpg)
 
+## *Planner / To-Do list*
+![planner](https://user-images.githubusercontent.com/81258205/177049468-a53c1297-3855-4543-a3bb-8b06c757bc02.jpg)
+
+## Perfil de Usuário
+![perfil](https://user-images.githubusercontent.com/81258205/177049755-51763953-0b24-42a4-88a9-dd3537b9f81d.jpg)
 
 # Metodologia
 
@@ -185,6 +183,7 @@ O método "Design Thinking" foi utilizado na fase de concepção do projeto. Já
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOB64Fm0=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/tiaw-pmg-cc-m-20221-desigualdade-na-qualidade-de-ensino | 
 |Protótipo Interativo | Figma | https://www.figma.com/proto/gIb8NlXcR2rITmC3edGozM/Wireframe?node-id=5%3A6&starting-point-node-id=2%3A2 |
+|User Flow | Visual Paradigm | https://online.visual-paradigm.com/pt/diagrams/features/website-user-flow-tool/|
 
 > As ferramentas empregadas no projeto são:
 > 
@@ -217,38 +216,60 @@ O método "Design Thinking" foi utilizado na fase de concepção do projeto. Já
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a criação do site, nós pensamos em um site que ajudaria o usuário a ingressar na faculdade.
+A aplicação ajuda o consumidor por meio de:
+
+* Dicas de técnicas e ferramentas para melhorar a produtividade dos estudos;
+* Gráficos mostrando tópicos recorrentes nas provas;
+* *Planner/To-Do list* para organização.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+- HTML, CSS e JavaScript: Foram utilizados para a construção de todo o site;
+- Guthub: Foi utilizado para controle de versão e hospedagem do site;
+- Visual Studio Code: Utilizado para a programação do site;
+- Figma: Foi utilizado para a criação das wireframes e protótipo;
+- Visual Paradigm: Utilizado para fazer o user flow;
+- *LocalStorage*: Foi utilizado para armazenar dados do usuário.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+**Alguns wireframes não correspondem a interface final**
+
+![userflow](https://user-images.githubusercontent.com/81258205/177050574-77959c43-d56d-418a-8921-063f5db9ec8f.png)
+* Userflow: Movimentação do usuário pelo site.
+
+![home](https://user-images.githubusercontent.com/81258205/177048595-3f9f6432-7099-4bc0-9799-7173a73fc310.jpg)
+* Wireframe da Home: Página principal principal do site, a partir dela é possivel acessar todas as outras.
+
+![login](https://user-images.githubusercontent.com/81258205/177048806-140799a5-f9a8-4191-8a67-ff5fbf5b6eee.jpg)
+* Wireframe da página de login: Página onde o usuário pode acessar a sua conta ou criar um noma.
+
+![Registro](https://user-images.githubusercontent.com/81258205/177048862-308e2916-ea22-4b4c-aa68-8d7258901592.jpg)
+* Wireframe da página de registro: Página onde é possível criar uma nova conta (nome, e-mail e senha são obrigatórios).
+
+![dica](https://user-images.githubusercontent.com/81258205/177048909-a2968762-e01d-49c9-9b10-0ff9803e04d8.jpg)
+* Wireframe da página de dica: Página que passa informações da dica escolhida na home.
+
+![planner](https://user-images.githubusercontent.com/81258205/177048978-74696754-7fef-404d-9163-eb2db7a023ec.jpg)
+* Wireframe da página de *planner/to-do list*: Página onde o usuário pode inserir, marcar como feita e excluir taréfas a serem feitas.
+
+![materias](https://user-images.githubusercontent.com/81258205/177049782-8fc3c0bb-5f09-4818-bfb6-3e8300d05a1e.jpg)
+* Wireframe da página de matérias: Página onde podem ser vistas informações das matérias como tópicos recorrentes e onde estudá-la.
+
+![perfil](https://user-images.githubusercontent.com/81258205/177049788-5b2014ef-3285-410f-9ae9-2c16b26393b9.jpg)
+* Wireframe da página de perfil do usuário: Página onde o usuário pode colocar uma foto e modificar informações sobre ele.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+* Diagrama de funcionamento da aplicação.
+> Sem utilização de backend.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+![nsei](https://user-images.githubusercontent.com/81258205/177050939-4a1f7512-fd90-4abc-9749-93b28ba2f187.png)
+
+Foi utilizado JavaScript para a dinâmicidade da página, juntamente do HTML e CSS, e o *local storage* para o armazenamento de dados do usuário e de algumas partes do site, como as dicas. Além disso, o site foi hospedado de forma gratuita utilizando o GitHub Pages.
 
 
 # Avaliação da Aplicação
+
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
@@ -291,12 +312,8 @@ O método "Design Thinking" foi utilizado na fase de concepção do projeto. Já
 
 
 # Referências
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+https://developer.mozilla.org/en-US/
+https://www.alura.com.br/artigos/css-animacoes-com-transitions-animations
+https://www.delftstack.com/pt/howto/javascript/javascript-append-html/
+https://blog.letscode.com.br/como-hospedar-seu-site-pelo-github-pages/
+https://warcontent.com/localstorage-javascript/
