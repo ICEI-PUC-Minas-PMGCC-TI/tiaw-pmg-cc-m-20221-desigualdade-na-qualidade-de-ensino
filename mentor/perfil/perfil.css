@@ -372,9 +372,9 @@ button:hover {
 }
 
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:720px) {
     section{
-        height: 800px;
+        min-height: 1100px;
         width: 100%;
         margin-top: 0px;
     }
