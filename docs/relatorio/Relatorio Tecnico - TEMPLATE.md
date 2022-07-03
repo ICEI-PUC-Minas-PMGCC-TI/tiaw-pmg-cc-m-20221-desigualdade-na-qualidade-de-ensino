@@ -105,13 +105,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir cadastrar matérias que vai estudar  | ALTA | 
+|RF-001| Permitir cadastrar matérias que vai estudar  | ALTA  | 
 |RF-002| Mostrar índice de matérias que caíram no Enem | ALTA |
-|RF-003| Mostrar técnicas de estudo                   | ALTA |
-|RF-004| Mostrar aplicativos de que ajudam no estudo  | MÉDIA |
-|RF-005| Pomodoro                                     | BAIXA |
-|RF-006| Fórum de discussões                          | MÉDIA |
-|RF-007| Mostrar onde estudar cada matéria            | ALTA  |
+|RF-003| Dicas de estudo                              | ALTA  |
+|RF-004| Mostrar canais de conteúdo                   | ALTA  |
+|RF-005| Mostrar onde estudar cada matéria            | ALTA  |
 
 
 ### Requisitos não Funcionais
