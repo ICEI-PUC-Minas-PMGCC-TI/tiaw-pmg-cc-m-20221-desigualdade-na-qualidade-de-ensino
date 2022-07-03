@@ -1,5 +1,9 @@
-# Código do Projeto
+## Código do Projeto
 
-Mantenha neste diretório todo o código fonte do projeto. 
-
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+ - [Código com tudo integrado](mentor/)
+ 
+ - [Código feito pelo aluno André Mendes](André/)
+ 
+ - [Código feito pelo aluno Lucas de Oliveira](lucas/)
+ 
+ - [Código feito pelo aluno Nilson Deon](nilson/)
