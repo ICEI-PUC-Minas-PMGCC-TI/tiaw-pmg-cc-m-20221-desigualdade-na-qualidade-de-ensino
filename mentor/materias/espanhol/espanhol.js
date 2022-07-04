@@ -48,7 +48,7 @@ if (localStorage.getItem('token') == null) { // verificação de login
   log.addEventListener('click', () => {
     localStorage.removeItem('token');
     localStorage.removeItem('userValid');
-    window.location.href = '../../index.html'
+    window.location.href = '../../../index.html'
   })
 }
 

@@ -32,7 +32,7 @@ if (localStorage.getItem('token') == null) { // verificação de login
   afazeres.href = '../../login-registro/login.html';
   perfil.href = '../..login-registro/login.html';
   log.addEventListener('click', () => {
-    window.location.href = '../../login-registro/login.html';
+    window.location.href = '../../../login-registro/login.html';
   })
 } else { // logout
   log.innerHTML = `
